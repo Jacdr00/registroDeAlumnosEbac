@@ -56,3 +56,22 @@ button{
     font-size: 21px;
     margin-top: 60px;
 }
+.checkbox-content{
+    color: gray;
+    display: flex;
+    align-items: center;
+    margin-top: 14px;
+    background-color: #D2EDDE;
+    height: 40px;
+    width: 377px;
+    /*padding-left: 30px;*/
+    border-radius: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    margin-left: 15px;    
+}
