@@ -16,20 +16,26 @@
         Registro de nuevos alumnos en EBAC
     </p>
 
-  <form action="">
-    <input type="text" name="name-user" placeholder="Nombre" id="">
-    <input type="text" name="age-user" placeholder="Edad" id="">
-    <input type="text" name="address-user" placeholder="Localidad" id="">
-    <input type="text" name="course-user" placeholder="Curso" id="">
-    <input type="text" name="email-user" placeholder="Email" id="">
+
+<button id="add-button">Agregar</button>
+<button id="consult-button">Consultar</button>
+<button id="delete-button">Eliminar</button>
+
+  <form id="registration-form">
+    <input type="text" name="name-user" placeholder="Nombre" id="name-input">
+    <input type="text" name="age-user" placeholder="Edad" id="age-input">
+    <input type="text" name="address-user" placeholder="Localidad" id="address-input">
+    <input type="text" name="course-user" placeholder="Curso" id="course-input">
+    <input type="text" name="email-user" placeholder="Email" id="email-input">
+    <input type="text" name="number-input" placeholder="Numero Telefono" id="number-input" >
     <div class="checkbox-content">
         <p>Seguro social</p>
-        <input class="checkbox" type="checkbox" name="social-number" id="">
+        <input class="checkbox" type="checkbox" name="checkbox-input" id="checkbox-input" value="true">
     </div>
    
 
-    <button>Enviar</button>
+    <button type="submit">Enviar</button>
   </form>
-   <!-- <script src="app.js"></script>-->
+   <script src="app.js"></script>
 </body>
 </html>
